@@ -38,11 +38,13 @@ namespace WindowsFormsApplication1
         public void DrawStar(int x, int y, int x2, int y2)
         {
             HatchBrush hBrush = new HatchBrush(
-         HatchStyle.DiagonalBrick,
-         Color.Yellow,
-         Color.Black);
+         HatchStyle.DottedDiamond,
+         Color.Black,
+         Color.LightGoldenrodYellow);
+           
             g.FillEllipse(hBrush, x, y, x2, y2);
         }
+
 
         public void DrawMine(int x, int y)
         {
