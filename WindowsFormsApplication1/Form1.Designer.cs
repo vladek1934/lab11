@@ -28,7 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(598, 27);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(240, 33);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Current score: ";
             // 
             // Form1
             // 
@@ -37,6 +50,7 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(897, 582);
+            this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "Form1";
             this.Text = "Form1";
@@ -47,6 +61,8 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Label label1;
     }
 }
 

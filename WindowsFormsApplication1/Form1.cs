@@ -33,6 +33,7 @@ namespace WindowsFormsApplication1
             DrawMine(665, 385);
             Drawship(250, 500);
             Drawbullet(240, 340);
+     
         }
 
         public void DrawStar(int x, int y, int x2, int y2)
@@ -127,6 +128,8 @@ namespace WindowsFormsApplication1
             DrawStar(x-25 , y-25, 50,50);
             DrawMine(x - 55, y - 55);
         }
+
+       
 
     }
 }
